@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.4.0/moment.min.js"></script>
+<div>
+    <div class="header">Astronomy Picture of the Day</div>
+    <div class="wrap">
+        <div class=" button-content">
+       
+       <!-- <button onclick="nextButton()"> Prev</button>
+      
+       <button onclick="prevButton()"> Next</button> -->
+      
+    </div>
+    <div  class="button-cal"> <input class="calendar" id="calendar" value={e.target.value} onchange="changeImageOnDate()"  type="date">
+    </div>
+    
+    </div>
+    <div class="image-wrap">
+        <div id="title"  class="title"><p>Title:</p></div>
+    <div class="image-apod">
+        <img src="" id="myImage">
+    </div>
+    <div class="dis" id="dis">Discrption:</div>
+</div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
